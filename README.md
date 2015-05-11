@@ -9,4 +9,4 @@ docker-compose up
 
 Will start the express application, statsd, graphite and grafana.
 
-Details are available on http://medium/XXX
+Details are available on https://medium.com/@chamerling/getting-metrics-from-your-express-app-without-effort-with-docker-and-grafana-ac8f6c42cbfb
