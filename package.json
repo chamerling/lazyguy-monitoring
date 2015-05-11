@@ -1,0 +1,33 @@
+{
+  "name": "lazyguy-monitoring",
+  "version": "0.0.0",
+  "description": "Monitor an Express App with statsd and Grafana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chamerling/lazyguy-monitoring"
+  },
+  "keywords": [
+    "monitoring",
+    "express",
+    "statsd",
+    "grafana"
+  ],
+  "author": "Christophe Hamerling <chamerling@linagora.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chamerling/lazyguy-monitoring/issues"
+  },
+  "homepage": "https://github.com/chamerling/lazyguy-monitoring",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-statsd": "^0.3.0"
+  },
+  "devDependencies": {
+    "request": "^2.55.0"
+  }
+}

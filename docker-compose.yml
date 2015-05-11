@@ -1,0 +1,16 @@
+app:
+  build: .
+  links:
+   - statsd:statsd
+  ports:
+   - "3000:3000"
+statsd:
+  image: hopsoft/graphite-statsd
+  ports:
+    - "3002:80"
+    - "2003:2003"
+    - "8125:8125/udp"
+grafana:
+  image: grafana/grafana
+  ports:
+    - "3001:3000"
