@@ -1,9 +1,9 @@
 # Build
 #    docker build -t chamerling/lazyguy-monitoring .
 
-FROM node:0.10.36
+FROM node:latest
 
-MAINTAINER Christophe Hamerling <chamerling@linagora.com>
+MAINTAINER Timothy Chin <tchin@go2group.com>
 
 # Cache NPM install of package.json has not been changed
 # cf http://www.clock.co.uk/blog/a-guide-on-how-to-cache-npm-install-with-docker
